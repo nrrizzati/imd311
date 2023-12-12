@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   background-colour: beige;
+   color: black;
+   padding: 10px;
+}
+h1 {
+  background-color: beige;
+  padding: 35px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: right;
+    padding: 2px;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+   display: inline-block;
+   list-style-type: none;
+}
+
+nav ul li{
+   display: inline-block;
+   margin-right: 20px;
+}
+a{
+   text-decoration: none;
+   color: #555;
+}
+
+p{
+  color: #555;
+  font-size: 15px;
+}
+.container{
+   max-width: 1300px;
+   margin: auto;
+   padding-left: 25px;
+   padding-right: 25px:
+}
+.row{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   font-size: 20px;
+}
+.col-2{
+   flex-basis: 50%;
+   min-width: 300px;
+}
+.col-2 img{
+   max-width: 50%;
+   padding: 50px 0;
+   align-items: right;
+}
+.col.2 h2{
+   font-size: 70px;
+   line-height: 60px;
+   margin: 25px 0;
+ 
+}
+.btn{
+   display: inline-block;
+   background: #060500;
+   color: #fff;
+   padding: 8px 30px;
+   margin: 30px 0;
+   border-radius: 30px;
+   transition: background 0.5s;
+}
+
+.btn: hover{
+   background: #FFFFFF;
+}
+tr,td{
+  border: 5px;
+  width: 180px;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+  font-size: 16px;
+}
+span.artist {
+  font-weight: bold;
+}
+
+span.album {
+  font-style: bold;
+}
+
+pre {
+  font-family: sans-serif;
+  padding: 5px;
+  background-color: #FFFAAB;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+.center.song {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+ 
+}
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+   width: 100%;
+}
+/* Style the footer */
+footer {
+  text-align: center;
+  color: black;
+}
+</style>
+</head>
+
